@@ -33,13 +33,13 @@ require (
 	github.com/jbowtie/ratago v0.0.0-20200401224626-3140c0a9b186
 	github.com/magefile/mage v1.14.0
 	github.com/milosgajdos/tenus v0.0.3
-	github.com/quic-go/quic-go v0.48.2
+	github.com/quic-go/quic-go v0.49.1
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.25.0
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/crypto v0.31.0
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
-	golang.org/x/mod v0.17.0
+	golang.org/x/mod v0.18.0
 	golang.org/x/net v0.33.0
 	golang.org/x/oauth2 v0.18.0
 	golang.org/x/sys v0.28.0
@@ -98,9 +98,9 @@ require (
 	go.opentelemetry.io/otel/metric v1.28.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
-	go.uber.org/mock v0.4.0 // indirect
+	go.uber.org/mock v0.5.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/tools v0.22.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240701130421-f6361c86f094 // indirect
