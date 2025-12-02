@@ -1,8 +1,6 @@
 module github.com/NordSecurity/nordvpn-linux
 
-go 1.22.1
-
-toolchain go1.22.2
+go 1.24.0
 
 // Bindings
 // NOTE: If you are chaning the binding versions here, keep in mind that you
@@ -19,7 +17,7 @@ require (
 	github.com/deckarep/golang-set/v2 v2.6.0
 	github.com/docker/docker v25.0.6+incompatible
 	github.com/docker/go-units v0.5.0
-	github.com/eclipse/paho.mqtt.golang v1.4.2
+	github.com/eclipse/paho.mqtt.golang v1.5.1
 	github.com/esiqveland/notify v0.13.2
 	github.com/fatih/color v1.15.0
 	github.com/fsnotify/fsnotify v1.7.0
@@ -37,14 +35,14 @@ require (
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.25.0
 	github.com/vishvananda/netlink v1.1.0
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.42.0
 	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
-	golang.org/x/mod v0.17.0
-	golang.org/x/net v0.33.0
+	golang.org/x/mod v0.27.0
+	golang.org/x/net v0.44.0
 	golang.org/x/oauth2 v0.18.0
-	golang.org/x/sys v0.28.0
-	golang.org/x/term v0.27.0
-	golang.org/x/text v0.21.0
+	golang.org/x/sys v0.36.0
+	golang.org/x/term v0.35.0
+	golang.org/x/text v0.29.0
 	golang.zx2c4.com/wireguard v0.0.0-20230313165553-0ad14a89f5f9
 	google.golang.org/api v0.169.0
 	google.golang.org/grpc v1.64.1
@@ -74,7 +72,7 @@ require (
 	github.com/google/s2a-go v0.1.7 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.2 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/jonboulle/clockwork v0.4.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -99,8 +97,8 @@ require (
 	go.opentelemetry.io/otel/sdk v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
 	go.uber.org/mock v0.4.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/sync v0.17.0 // indirect
+	golang.org/x/tools v0.36.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240701130421-f6361c86f094 // indirect
